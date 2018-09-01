@@ -30,6 +30,8 @@
                 align-items: center;
                 display: flex;
                 justify-content: center;
+                height: 75%;
+
             }
 
             .position-ref {
