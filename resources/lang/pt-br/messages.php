@@ -23,5 +23,6 @@ return [
     'next'                  => 'Next &raquo;',
     'remember_me'           => 'Lembrar senha',
     'forgot_your_password'  => 'Esqueceu sua senha',
+    'rules'                 => 'Regras',
 
 ];

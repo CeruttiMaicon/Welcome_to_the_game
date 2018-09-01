@@ -22,6 +22,7 @@ return [
     'register'              => 'Register',
     'next'                  => 'Next &raquo;',
     'remember_me'           => 'Remember me',
-    'forgot_your_password'  => 'Forgot Your Password'
+    'forgot_your_password'  => 'Forgot Your Password',
+    'rules'                 => 'Rules',
 
 ];

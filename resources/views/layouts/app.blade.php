@@ -22,7 +22,7 @@
 </head>
 <body>
     <div id="app">
-        <navigate titulo="{{ 'Welcome to the game' }}" url="{{ url('/') }}">
+    <navigate titulo="{{ 'Welcome to the game' }}" url="{{ url('/') }}" rules="{{ trans('messages.rules')}}" urlrules="{{url('/rules')}}">
             @guest
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('login') }}">{{ trans('messages.login') }}</a>

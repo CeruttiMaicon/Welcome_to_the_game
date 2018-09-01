@@ -17,6 +17,7 @@ window.Vue = require('vue');
 
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
 Vue.component('navigate', require('./components/Navigate.vue'));
+Vue.component('rules', require('./components/Rules.vue'));
 
 const app = new Vue({
     el: '#app'
