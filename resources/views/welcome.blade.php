@@ -1,6 +1,6 @@
-@extends('layouts.app')
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
+@include('layouts.app')
+
+
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -67,16 +67,7 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">{{trans('messages.login')}}</a>
-                        <a href="{{ route('register') }}">{{trans('messages.register')}}</a>
-                    @endauth
-                </div>
-            @endif
+            
 
             <div class="content">
                 <div class="title m-b-md">
@@ -86,5 +77,6 @@
 
             </div>
         </div>
+       
     </body>
-</html>
+
