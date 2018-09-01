@@ -31,7 +31,5 @@
     }
 </script>
 
-<style>
-    background-color:#3490dc;
-</style>
+
 
