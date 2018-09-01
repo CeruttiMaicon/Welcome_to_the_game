@@ -24,5 +24,6 @@ return [
     'remember_me'           => 'Lembrar senha',
     'forgot_your_password'  => 'Esqueceu sua senha',
     'rules'                 => 'Regras',
+    'message_pag_home'      => 'Registre-se ou faça login para iniciar o jogo!',
 
 ];
