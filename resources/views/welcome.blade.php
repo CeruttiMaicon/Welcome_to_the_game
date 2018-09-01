@@ -71,7 +71,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Welcome to the game
+                    {{ config('app.name', 'Welcome to the game') }}
                 </div>
                 <button type="button" class="btn btn-primary">{{trans('messages.start_game')}}</button>
 
