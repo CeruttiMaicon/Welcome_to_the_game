@@ -13,7 +13,15 @@ return [
     |
  */
 
-    'start_game' => 'Iniciar jogo',
-    'next' => 'Next &raquo;',
+    'start_game'            => 'Iniciar jogo',
+    'login'                 => 'Entrar',
+    'name'                  => 'Nome',
+    'email'                 => 'E-mail',
+    'password'              => 'Senha',
+    'confirm_password'      => 'Confirmar senha',
+    'register'              => 'Registrar',
+    'next'                  => 'Next &raquo;',
+    'remember_me'           => 'Lembrar senha',
+    'forgot_your_password'  => 'Esqueceu sua senha',
 
 ];

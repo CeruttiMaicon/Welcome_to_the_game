@@ -1,3 +1,4 @@
+@extends('layouts.app')
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
     <head>
@@ -71,8 +72,8 @@
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
                     @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
+                        <a href="{{ route('login') }}">{{trans('messages.login')}}</a>
+                        <a href="{{ route('register') }}">{{trans('messages.register')}}</a>
                     @endauth
                 </div>
             @endif
@@ -81,7 +82,7 @@
                 <div class="title m-b-md">
                     Welcome to the game
                 </div>
-                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-primary">{{trans('messages.start_game')}}</button>
 
             </div>
         </div>
