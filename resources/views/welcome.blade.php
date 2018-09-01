@@ -81,6 +81,7 @@
                 <div class="title m-b-md">
                     Welcome to the game
                 </div>
+                <button type="button" class="btn btn-primary">Primary</button>
 
             </div>
         </div>
