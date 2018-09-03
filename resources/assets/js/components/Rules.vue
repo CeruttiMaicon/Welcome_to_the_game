@@ -6,7 +6,26 @@
                     <div class="card-header">{{titulo}}</div>
 
                     <div class="card-body">
-                        Escrever as regras aqui!
+                        {{regra1}}
+                        <br/>
+                        {{regra2}}
+                        <br/>
+                        {{regra3}}
+                        <br/>
+                        {{regra4}}
+                        <br/>
+                        {{regra5}}
+                        <br/>
+                        {{regra6}}
+                        <br/>
+                        {{regra7}}
+                        <br/>
+                        <br/>
+                        <br/>
+                        {{regra8}}
+                        <br/>
+                        <br/>
+                        {{"Welcome to the game"}}
                     </div>
                 </div>
                 <br>
@@ -24,7 +43,7 @@
 
 <script>
     export default {
-        props:['titulo', 'link', 'url', 'nomebotao'],
+        props:['titulo', 'link', 'url', 'nomebotao', 'regra1', 'regra2', 'regra3', 'regra4', 'regra5', 'regra6', 'regra7', 'regra8'],
         mounted() {
             console.log('Component mounted.')
         }

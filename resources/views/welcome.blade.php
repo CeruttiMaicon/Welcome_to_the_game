@@ -69,8 +69,6 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-            
-
             <div class="content">
                 <div class="title m-b-md">
                     {{ config('app.name', 'Welcome to the game') }}
@@ -78,12 +76,10 @@
                 @guest
                      {{trans('messages.message_pag_home')}}   
                 @else
-                   
                     <button type="button" class="btn btn-primary">{{trans('messages.start_game')}}</button>
                 @endguest
-
             </div>
         </div>
-       
     </body>
+
 
